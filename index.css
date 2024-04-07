@@ -1,0 +1,99 @@
+/* Write your code here. */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'roboto';
+  font-size: 33px;
+  font-weight: 900;
+  color: #0f172a;
+  text-align: center;
+}
+
+.cardcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 23px;
+  border-radius: 6px;
+}
+
+.bgprimary {
+  background-color: #0b69ff;
+  height: 12%;
+  width: 79%;
+}
+
+.bgsuccess {
+  background-color: #2dca73;
+  height: 12%;
+  width: 79%;
+}
+.bgwarning {
+  background-color: #ffb800;
+  height: 12%;
+  width: 79%;
+}
+.bgdanger {
+  background-color: #ff0b37;
+  height: 12%;
+  width: 79%;
+}
+
+.iconstyles {
+  width: 23px;
+  height: 23px;
+  margin: 12px;
+}
+
+.messagestyles {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media all and (min-width:768px){
+  
+.heading {
+  font-size: 59px
+}
+
+.bgprimary {
+  background-color: #0b69ff;
+  width: 75%;
+}
+
+.bgsuccess {
+  background-color: #2dca73;
+  width: 75%;
+}
+.bgwarning {
+  background-color: #ffb800;
+  width: 75%;
+}
+.bgdanger {
+  background-color: #ff0b37;
+  width: 75%;
+}
+
+.messagestyles {
+  font-size: 29px;
+}
+}
